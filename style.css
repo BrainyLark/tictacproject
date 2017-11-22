@@ -8,9 +8,10 @@ td {
 }
 
 table {
+    margin: auto;
     border-collapse: collapse;
-    position: absolute;
-    top: 50px;
+    position: relative;
+    top: 20px;
 }
 
 table tr:first-child td {
@@ -31,16 +32,17 @@ table tr td:last-child {
 
 .endgame {
     display: none;
-    width: 200px;
+    width: 500px;
     top: 120px;
-    background-color: rgba(205, 133, 63, 0.8);
-    position: absolute;
+    background-color: rgba(36, 113, 163, 0.95);
+    position: fixed;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -250px;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     border-radius: 5px;
     color: white;
-    font-size: 2em;
+    font-size: 3em;
+    font-family: Ubuntu Mono, Italic;
 }
